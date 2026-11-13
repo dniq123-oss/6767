@@ -1,0 +1,122 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Tahoma', sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.wrap { width: 100%; max-width: 440px; }
+
+.card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 32px 26px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+}
+
+.card.center { text-align: center; }
+
+.icon-wrap {
+  width: 88px; height: 88px;
+  margin: 0 auto 20px;
+  background: rgba(31,111,235,0.1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrap.warn { background: rgba(255,145,0,0.1); }
+
+.card h1 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.4;
+}
+
+.sub {
+  color: #8b949e;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.steps {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background: #0d1117;
+  border: 1px solid #21262d;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #c9d1d9;
+}
+
+.step .num {
+  width: 22px; height: 22px;
+  background: #1f6feb;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.btn-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 15px;
+  background: #238636;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.15s;
+  cursor: pointer;
+}
+
+.btn-download:hover { background: #2ea043; }
+
+.hint {
+  text-align: center;
+  font-size: 12px;
+  color: #6e7681;
+  margin-top: 14px;
+}
+
+.info-box {
+  margin-top: 20px;
+  padding: 14px;
+  background: #0d1117;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  font-size: 13px;
+  color: #8b949e;
+  line-height: 1.6;
+}
